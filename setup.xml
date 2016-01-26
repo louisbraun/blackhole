@@ -6,12 +6,13 @@
         <parameter type="bool" name="showdevices" displaytext="{tr(showdevices)}">0</parameter>
         <parameter type="bool" name="showposter" displaytext="{tr(showpostertext)}">1</parameter>
         <parameter type="bool" name="showmainmenuicons" displaytext="{tr(showmainmenuicons)}">1</parameter>
-        <parameter type="int" name="fadetime" min="0" max="1000" displaytext="{tr(fadetext)}">300</parameter>
-        <parameter type="int" name="shifttimechannel" min="0" max="1000" displaytext="{tr(shiftchanneltext)}">0</parameter>
+        <parameter type="int" name="fadetime" min="0" max="1000" displaytext="{tr(fadetext)}">0</parameter>
+        <parameter type="int" name="shifttimechannel" min="0" max="1000" displaytext="{tr(shiftchanneltext)}">300</parameter>
         <parameter type="int" name="shifttimevolume" min="0" max="1000" displaytext="{tr(shiftvolumetext)}">0</parameter>
         <parameter type="int" name="shifttimereplay" min="0" max="1000" displaytext="{tr(shiftreplaytext)}">0</parameter>
         <parameter type="int" name="shifttimemessage" min="0" max="1000" displaytext="{tr(shiftmessagetext)}">0</parameter>
-        <parameter type="int" name="shifttimemenu" min="0" max="1000" displaytext="{tr(shiftmenutext)}">0</parameter>
+        <parameter type="int" name="shifttimemenu" min="0" max="1000" displaytext="{tr(shiftmenutext)}">300</parameter>
+        <parameter type="int" name="shiftdelaymenu" min="0" max="1000" displaytext="{tr(shiftdelaytext)}">300</parameter>
         <parameter type="int" name="nummenuitemsmain" min="6" max="30" displaytext="{tr(nummenuitemsmain)}">10</parameter>
         <parameter type="int" name="nummenuitems" min="6" max="30" displaytext="{tr(nummenuitems)}">10</parameter>
         <parameter type="int" name="nummenuitemsdefault" min="6" max="30" displaytext="{tr(nummenuitemsdefault)}">16</parameter>
@@ -58,6 +59,10 @@
         <token name="tr(shiftmenutext)">
             <trans lang="en_EN">Shift time for Clock in Menu [ms]</trans>
             <trans lang="de_DE">Einfahrzeit für Uhr im Menü [ms]</trans>
+        </token>
+        <token name="tr(shiftdelaytext)">
+            <trans lang="en_EN">Delay for Clock in Menu [ms]</trans>
+            <trans lang="de_DE">Verzögerung für Uhr im Menü [ms]</trans>
         </token>
         <token name="tr(nummenuitemsmain)">
             <trans lang="en_EN">Items in main menu</trans>
