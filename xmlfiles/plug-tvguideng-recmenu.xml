@@ -92,14 +92,15 @@
         <area condition="{buttonyesno}" layer="6">
             <drawtext name="yestext" x="{areawidth}/4 - {width(yestext)}/2" valign="center" font="{light}" fontsize="70%" color="{clrWhite}" text="{textyes}" />
             <drawtext name="notext" x="3*{areawidth}/4 - {width(notext)}/2" valign="center" font="{light}" fontsize="70%" color="{clrWhite}" text="{textno}" />
-        </area>        <!-- Int Selector
+        </area>        
+	<!-- Int Selector
         {intselector}   true
         {text}          title of selector
-        {stringvalue}   current value of selector, integer
+        {intvalue}      current value of selector, integer
         -->
         <area condition="{intselector}" layer="6">
             <drawtext x="1%" valign="center" font="{light}" fontsize="80%" color="{clrWhite}" text="{text}" />
-            <drawtext align="right" valign="center" font="{light}" fontsize="80%" color="{clrWhite}" text="{stringvalue} " />
+            <drawtext align="right" valign="center" font="{light}" fontsize="80%" color="{clrWhite}" text="{intvalue} " />
         </area>
         <!-- Bool Selector 
         {boolselector}  true
